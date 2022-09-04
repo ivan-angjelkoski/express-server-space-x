@@ -1,0 +1,20 @@
+{
+  "name": "spacex-graphql-backend",
+  "version": "1.0.0",
+  "description": "Backend for SpaceX Comments",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ivan Angjelkoski",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1"
+  }
+}
